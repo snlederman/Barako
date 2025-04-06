@@ -1,0 +1,69 @@
+/* TopBar */
+.topbar {
+  background-color: #ffffff;
+  height: 70px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.topbar img {
+  height: 70px; /* Ajusta según necesites */
+}
+
+.logout-btn {
+  position: absolute;
+  right: 20px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Sidebar */
+.sidebar {
+  background-color: #574F7D;
+  width: 200px;
+  padding: 20px;
+  box-sizing: border-box;
+  color: white;
+  height: 100%;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.sidebar a.active,
+.sidebar a:hover {
+  background-color: #3b3f59;
+}
+
+/* Layout */
+.layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.layout-container {
+  display: flex;
+  flex: 1;
+}
+
+.main-content {
+  flex: 1;
+  background-color: #2B2F3A;
+  padding: 20px;
+  color: white;
+  overflow-y: auto;
+}
